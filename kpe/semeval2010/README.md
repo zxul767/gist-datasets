@@ -1,8 +1,10 @@
 # Contents
 
 + `semeval2010.tar.gz` is the dataset in our own format. 
-+ `sources/semeval2010-original-partitioned.tar.gz` is likely the original version from the [SemEval2010](https://semeval.github.io/) contest, originally obtained from https://github.com/snkim/AutomaticKeyphraseExtraction
-+ `sources/semeval2010-abstracts.tar.gz` is another version found in https://github.com/LIAAD/KeywordExtractor-Datasets which contains only abstracts of the documents.
+
++ `sources/semeval2010-original-partitioned.tar.gz` is likely the original version from the [SemEval2010](https://semeval.github.io/) contest, originally obtained from https://github.com/snkim/AutomaticKeyphraseExtraction/blob/master/SemEval2010.tar.gz
+
++ `sources/semeval2010-abstracts.tar.gz` is another version found in https://github.com/epapagia/Datasets-Keyphrase-Extraction/blob/master/Semeval2010_Abstracts.zip which contains only abstracts of the documents.
 
 The reason why we needed to source two versions of the same dataset is that, while `semeval2010-original-partitioned.tar.gz` preserved important information regarding the source of the gold keyphrases (i.e., whether they were annotated by authors or readers), the test partition didn't contain files for unstemmed keyphrases (as the training and validation partitions did). We suspect this is probably due to the logistics of the contest, which required that students didn't get access to the gold keyphrases in the test partition (and they were later added, but only in their stemmed version.)
 
