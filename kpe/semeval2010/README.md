@@ -14,6 +14,8 @@ The reason why we needed to source two versions of the same dataset is that, whi
 
 Because of the above, we had to find a way to reconstruct the unstemmed keyphrases for the test partition. Part of the code we used to perform that reconstruction can be found [here](https://gist.github.com/zxul767/b69fc59ca27a03b96677de33f0a64f10)[^1] 
 
-For details on our version, see the README in the parent folder.
+***
+
+For details on our version, see the main [README](../README.md).
 
 [^1]: We intend to add the full scripts for fully recreating `semeval2010.tar.gz` from its sources later on; see [this issue](https://github.com/zxul767/gist-datasets/issues/1). 
