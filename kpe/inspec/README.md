@@ -6,4 +6,6 @@
 # Paper
 The paper that introduced this dataset can be found [here](https://dl.acm.org/doi/pdf/10.3115/1119355.1119383)
 
-For details on our version, see the README in the parent folder.
+***
+
+For details on our version, see the main [README](../README.md)
